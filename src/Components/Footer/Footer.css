@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: gainsboro;
+  color: black;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+}
+
+.footerElm {
+  background-color: gold;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

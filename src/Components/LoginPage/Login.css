@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: white; */
+}
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.login-form {
+  width: 375px;
+  height: 612px;
+  background-color: #f7f8f9;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+}
+.login-form h2 {
+  position: relative;
+  top: 36px;
+  left: 20px;
+  width: 188px;
+  height: 69px;
+  text-align: left;
+  font: normal normal medium 28px/36px Rubik;
+  letter-spacing: 0px;
+  color: #1d2226;
+  background-color: #f7f8f9;
+  opacity: 1;
+}
+
+.login-form p {
+  position: relative;
+  top: 50px;
+  left: 20px;
+  width: 232px;
+  height: 48px;
+
+  text-align: left;
+  font: normal normal normal 18px/26px Rubik;
+  letter-spacing: 0px;
+  background-color: #f7f8f9;
+  color: #1d2226;
+  opacity: 0.6;
+}
+
+#email-input {
+  position: relative;
+  top: 90px;
+  left: 20px;
+  width: 335px;
+  height: 40px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  background-color: #f7f8f9;
+  opacity: 1;
+  color: #333;
+  padding-left: 5px;
+}
+
+#pass-input {
+  position: relative;
+  top: 92px;
+  left: 20px;
+  width: 335px;
+  height: 40px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  background-color: #f7f8f9;
+  color: #333;
+  opacity: 1;
+  padding-left: 5px;
+}
+.login-form label {
+    top: 98px;
+    left: 34px;
+    width: 85px;
+    height: 15px;
+    text-align: left;
+    font: normal normal normal 13px/17px Rubik;
+    letter-spacing: 0px;
+    color: #6C25FF;
+    background-color: #f7f8f9;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    font-weight: bold;
+}
+.login-form button {
+  position: relative;
+  top: 124px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  background: #cbcbcb 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+}
